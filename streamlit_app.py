@@ -1,6 +1,7 @@
-import streamlit as st
+import streamlit as st  
+from streamlit_qrcode_scanner import qrcode_scanner  
 
-st.title("🎈 My new app From Git")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+qr_code = qrcode_scanner(key='qrcode_scanner')  
+
+if qr_code:  
+  st.write(qr_code) 
