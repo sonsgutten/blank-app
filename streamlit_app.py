@@ -9,4 +9,4 @@ if qr_code:
 
 
 #st.write(f"{item['name']} has a :{item['pet']}:")
-st.write(f"Test på linje")
+st.write(st.secrets["uri"])
