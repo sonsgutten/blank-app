@@ -1,3 +1,4 @@
 streamlit
 streamlit_qrcode_scanner
 pymongo
+streamlit-authenticator
